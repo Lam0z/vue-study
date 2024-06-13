@@ -8,6 +8,9 @@ import conditional from "./components/conditional.vue";
 import renderingLists from "./components/renderingLists.vue";
 import events from "./components/events.vue";
 import forms from "./components/forms.vue";
+import hooks from "./components/hooks.vue";
+// import watchers from "./components/watchers.vue";
+import refs from "./components/refs.vue";
 </script>
 
 <template>
@@ -18,7 +21,10 @@ import forms from "./components/forms.vue";
     <!-- <lesson title="Условная отрисовка"><conditional /></lesson> -->
     <!-- <lesson title="Отрисовка списков"><renderingLists /></lesson> -->
     <!-- <lesson title="Обработка событий"><events /></lesson> -->
-    <lesson title="Работа с формами"><forms /></lesson>
+    <!-- <lesson title="Работа с формами"><forms /></lesson> -->
+    <!-- <lesson title="Хуки жизненного цикла приложения"><hooks /></lesson> -->
+    <!-- <lesson title="Наблюдатели"><watchers /></lesson> -->
+    <lesson title="Ссылки на элементы шаблона"><refs /></lesson>
 </template>
 
 <style scoped></style>
